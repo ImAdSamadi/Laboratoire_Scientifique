@@ -1,0 +1,50 @@
+services:
+  mysql:
+    image: mysql
+    container_name: container-sql
+    volumes:
+      - "//c/data:/var/lib/mysql"  # Updated volume path format
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+    ports:
+      - "3307:3306"
+    networks:
+      microservices-network:
+        ipv4_address: 192.168.100.15
+
+  labo_discovery-service:
+    build: ./Discovery-Service
+    container_name: labo_discovery_service
+    ports:
+      - "8761:8761"
+    healthcheck:
+      test: ["CMD", "curl", "http://127.0.0.1:8761/actuator/health"]
+      interval: 10s
+      retries: 4
+    networks:
+      microservices-network:
+        ipv4_address: 192.168.100.10
+
+  labo_config_service:
+    build: ./Configuration-Service
+    container_name: labo_config_service
+    ports:
+      - "9999:9999"
+    healthcheck:
+      test: ["CMD", "curl", "http://127.0.0.1:9999/actuator/health"]
+      interval: 10s
+      retries: 4
+    environment:
+      - DISCOVERY_SERVICE_URL=http://192.168.100.10:8761/eureka
+    networks:
+      microservices-network:
+        ipv4_address: 192.168.100.20
+    depends_on:
+      - labo_discovery-service
+
+networks:
+  microservices-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 192.168.100.0/24
