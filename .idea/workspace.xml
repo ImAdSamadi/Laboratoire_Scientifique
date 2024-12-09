@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e661cfc4-696a-4347-ad7c-3f21976040cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Enseignant-Service/src/test/java/dcc/tp2/enseignantservice/service/EnseignantServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Enseignant-Service/src/test/java/dcc/tp2/enseignantservice/web/APITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Configuration-Service/config-deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration-Service/config-deploy.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Discovery-Service/discovery-deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Discovery-Service/discovery-deploy.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enseignant-Service/enseignant-deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Enseignant-Service/enseignant-deploy.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enseignant-Service/src/test/java/dcc/tp2/enseignantservice/EnseignantServiceApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Gateway-Service/gateway-deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway-Service/gateway-deploy.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Security_Microservice/security-deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Security_Microservice/security-deploy.yaml" afterDir="false" />
     </list>
@@ -236,7 +229,7 @@
       <workItem from="1732536948316" duration="486000" />
       <workItem from="1732540497807" duration="18464000" />
       <workItem from="1732715060453" duration="201000" />
-      <workItem from="1733751361407" duration="6367000" />
+      <workItem from="1733751361407" duration="7193000" />
     </task>
     <servers />
   </component>

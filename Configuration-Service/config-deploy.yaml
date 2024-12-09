@@ -15,7 +15,7 @@ spec:
       containers:
         - name: config-service
           image: labo_config_images
-          imagePullPolicy: Always
+          imagePullPolicy: Never
           ports:
             - containerPort: 9999
           env:
