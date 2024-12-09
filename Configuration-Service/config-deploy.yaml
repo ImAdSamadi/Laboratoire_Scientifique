@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: config-service
-          image: labo_config_images
+          image: josh002/configuration-service
           imagePullPolicy: Never
           ports:
             - containerPort: 9999
