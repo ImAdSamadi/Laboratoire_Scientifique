@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e661cfc4-696a-4347-ad7c-3f21976040cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lab-Config-Repo/Chercheur-service.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-Config-Repo/Chercheur-Service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-Config-Repo/Chercheur-Service.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-Config-Repo/Enseignant-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-Config-Repo/Enseignant-service.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-Config-Repo/Projet-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-Config-Repo/Projet-service.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-Config-Repo/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-Config-Repo/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Enseignant-Service/src/test/java/dcc/tp2/enseignantservice/service/EnseignantServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Enseignant-Service/src/test/java/dcc/tp2/enseignantservice/web/APITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration-Service/config-deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration-Service/config-deploy.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Discovery-Service/discovery-deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Discovery-Service/discovery-deploy.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Enseignant-Service/enseignant-deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Enseignant-Service/enseignant-deploy.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Enseignant-Service/src/test/java/dcc/tp2/enseignantservice/EnseignantServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway-Service/gateway-deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway-Service/gateway-deploy.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security_Microservice/security-deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Security_Microservice/security-deploy.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +35,15 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Lab-Config-Repo" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -55,12 +69,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.APITest.executor": "Coverage",
+    "JUnit.APITest.getALL.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.ChercheurServiceApplication.executor": "Run",
     "Spring Boot.ConfigurationServiceApplication.executor": "Run",
     "Spring Boot.DiscoveryServiceApplication.executor": "Run",
@@ -68,10 +85,12 @@
     "Spring Boot.GatewayServiceApplication.executor": "Run",
     "Spring Boot.ProjetServiceApplication.executor": "Run",
     "Spring Boot.SecurityMicroserviceApplication.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "Rebasing main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/HP EliteBook 840/Desktop/Scala",
+    "last_opened_file_path": "C:/Users/Dell/Desktop/Laboratoire_Scientifique",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -89,6 +108,13 @@
       <recent name="C:\Users\HP EliteBook 840\Desktop\NadirElMesmoudi\Gestion_laboratoire\Gateway-Service\src\main\java\com\gatewayservice\configuration" />
       <recent name="C:\Users\HP EliteBook 840\Desktop\NadirElMesmoudi\Gestion_laboratoire\Gateway-Service\src\main\resources" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="dcc.tp2.enseignantservice.web" />
+      <recent name="dcc.tp2.enseignantservice.service" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -100,7 +126,38 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ChercheurServiceApplication">
+  <component name="RunManager" selected="JUnit.APITest">
+    <configuration name="APITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Enseignant-Service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dcc.tp2.enseignantservice.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dcc.tp2.enseignantservice.web" />
+      <option name="MAIN_CLASS_NAME" value="dcc.tp2.enseignantservice.web.APITest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APITest.getALL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Enseignant-Service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dcc.tp2.enseignantservice.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dcc.tp2.enseignantservice.web" />
+      <option name="MAIN_CLASS_NAME" value="dcc.tp2.enseignantservice.web.APITest" />
+      <option name="METHOD_NAME" value="getALL" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ChercheurServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Chercheur-Service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="dcc.tp2.chercheurservice.ChercheurServiceApplication" />
@@ -150,12 +207,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.APITest" />
+        <item itemvalue="JUnit.APITest.getALL" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
-        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
       </set>
     </attachedChunks>
   </component>
@@ -173,6 +236,7 @@
       <workItem from="1732536948316" duration="486000" />
       <workItem from="1732540497807" duration="18464000" />
       <workItem from="1732715060453" duration="201000" />
+      <workItem from="1733751361407" duration="6367000" />
     </task>
     <servers />
   </component>
@@ -189,5 +253,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Laboratoire_Scientifique$APITest.ic" NAME="APITest Coverage Results" MODIFIED="1733758343432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>dcc.tp2.enseignantservice.web.*</FILTER>
+    </SUITE>
   </component>
 </project>
